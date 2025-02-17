@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function showFlowers() {
-    gameImage.src = "images/Flowers.JPG";
+    gameImage.src = "images/Flowers.webp";
     gameImage.style.display = 'block';
     showMessage(winnerMessage); // If winning ends the game.
     endGame(true);
