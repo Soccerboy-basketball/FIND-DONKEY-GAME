@@ -1,0 +1,39 @@
+/* *{
+    border: 2px solid black;
+}
+     */
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  #game-container {
+    margin: 20px auto;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: none; /* Hide game container until game starts */
+  }
+  #point {
+    display: none;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    display: none; /* Hide images initially */
+  }
+  #timer {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    display: none; /* Hide timer until game starts */
+  }
+  #winner, #loser {
+    display: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  #start-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
